@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2 {
+  margin-bottom: 15px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.book-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .book-ul {
+  list-style-type: none;
+}
+
+.btn {
+  all: unset;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+ul li button.btn {
+  background: white;
+  padding: 5px;
+  color: #000;
+}
+
+button:hover {
+  border: 1px solid #000;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#form input {
+  margin: 5px 0;
+  width: 250px;
+  height: 20px;
+  padding: 5px;
+}
+
+#form input:focus-visible {
+  outline: #474747 auto 1px;
+  border-radius: 5px;
+}
+
+#form button {
+  background-color: #474747;
+  color: #fff;
+  align-self: end;
+  padding: 10px;
+}
+
+#form button:focus,
+#form button:hover {
+  background-color: #fff;
+  color: #474747;
+  border: 1px solid #474747;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+  height: 30px;
+  padding: 5px;
+  color: #fff;
+}
+
+ul {
+  padding: 0;
+  background-color: #777;
+  margin-block: 2px;
+  border-radius: 5px;
+}
+
+ul:nth-child(even) {
+  background-color: #474747;
+}
+
+.line {
+  height: 2px;
+  background-color: #474747;
+  width: 200px;
+  margin-block: 10px;
+  border-radius: 2.5px;
+  margin-block: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  ul li {
+    width: 600px;
+  }
+}
