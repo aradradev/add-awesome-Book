@@ -14,21 +14,44 @@
 
 <body>
 
+    <header id="navigation-container">
+
+    </header>
     <main>
-        <div class="book-list">
-            <h1>Awesome books</h1>
+        <p class="time">"2015-03-25T12:00:00Z"</p>
+        <section class="book-list" id="list-section" data-visible="true">
+            <h1>All Awesome books</h1>
             <!-- Container of the books -->
             <div class="container">
-                
             </div>
-            <div class="line"></div>
-            <form id="form">
+
+        </section>
+
+        <section id="add-section" data-visible="false">
+            <h2>Add new book</h2>
+            <form id="form" method="POST">
                 <input type="text" placeholder="Title" id="title" required>
                 <input type="text" placeholder="Author" id="author" required>
-                <button type="submit" class="btn">Add</button>
+                <button type="submit" value="Add" class="btn">Add</button>
             </form>
-        </div>
+        </section>
+
+        <section id="about-section" class="book-list" data-visible="false">
+            <h2>Contact Information</h2>
+            <div class="contact-information">
+                <p>Do you have any questions or you just want to say "Hello" ? <br> You can reach out to us:</p>
+                <ul>
+                    <li><a href="https://github.com/Mofuhidy">Fuhidy</a></li>
+                    <li><a href="https://github.com/khanh-devos">Khanh</a></li>
+                    <li><a href="https://github.com/aradradev">Jalloh</a></li>
+                </ul>
+            </div>
+        </section>
     </main>
+
+    <footer class="footer-section">
+        <a href="https://github.com/khanh-devos/awesome-books/blob/main/MIT.md">&copy; Copyright 2023</a>
+    </footer>
 
 </body>
 
