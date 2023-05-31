@@ -58,7 +58,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://khanh-devos.github.io/awesome-books/)
+- [Live Demo Link](https://aradradev.github.io/add-awesome-Book/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +120,7 @@ You can deploy any service you want.
 - Twitter: [@khanhror](https://twitter.com/home?lang=en)
 - LinkedIn: [Khanh RoR](https://www.linkedin.com/in/khanh-than-trong-3b4344246/)
 
-👤 **Jallouh**
+👤 **Jalloh**
 
 - GitHub: [@aradradev](https://github.com/aradradev)
 
